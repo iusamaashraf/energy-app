@@ -40,7 +40,7 @@ class _RootPageState extends State<RootPage> {
             children: [
               Header(
                 notificationTap: () {},
-              )
+              ),
             ],
           ),
         ),
