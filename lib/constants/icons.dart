@@ -13,4 +13,7 @@ class IconClass {
   static const gift = 'assets/icons/gift.svg';
   static const community = 'assets/icons/community.svg';
   static const weather = 'assets/icons/weather.png';
+  static const co2 = 'assets/icons/co2.svg';
+  static const equipment = 'assets/icons/equipment.svg';
+  static const bike = 'assets/icons/bike.svg';
 }
