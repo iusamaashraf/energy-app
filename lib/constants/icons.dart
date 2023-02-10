@@ -7,4 +7,9 @@ class IconClass {
   static const user = 'assets/icons/user.svg';
   static const notification = 'assets/icons/notificaiton.svg';
   static const reviewImage = 'assets/icons/review_image.svg';
+  static const home = 'assets/icons/home.svg';
+  static const meter = 'assets/icons/meter.svg';
+  static const devices = 'assets/icons/devices.svg';
+  static const gift = 'assets/icons/gift.svg';
+  static const community = 'assets/icons/community.svg';
 }
