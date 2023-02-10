@@ -12,4 +12,5 @@ class IconClass {
   static const devices = 'assets/icons/devices.svg';
   static const gift = 'assets/icons/gift.svg';
   static const community = 'assets/icons/community.svg';
+  static const weather = 'assets/icons/weather.png';
 }

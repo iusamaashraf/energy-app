@@ -38,6 +38,7 @@ class _RootPageState extends State<RootPage> {
         height: Get.height,
         width: Get.width,
         child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Padding(
               padding: EdgeInsets.only(
