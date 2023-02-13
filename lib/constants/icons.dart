@@ -18,4 +18,10 @@ class IconClass {
   static const bike = 'assets/icons/bike.svg';
   static const first = 'assets/icons/first.svg';
   static const won = 'assets/icons/won.svg';
+  static const energy = 'assets/icons/energy.svg';
+  static const airConditioned = 'assets/icons/airconditioned.svg';
+  static const dishWasher = 'assets/icons/dishwasher.svg';
+  static const computer = 'assets/icons/computer.svg';
+  static const mobile = 'assets/icons/mobile.svg';
+  static const teslaIcon = 'assets/icons/teslaicon.svg';
 }

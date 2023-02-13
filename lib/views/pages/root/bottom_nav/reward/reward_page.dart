@@ -1,5 +1,6 @@
 import 'package:energy_app/constants/colors.dart';
 import 'package:energy_app/constants/icons.dart';
+import 'package:energy_app/model/gift_model.dart';
 import 'package:energy_app/views/widgets/custom_back_button.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
@@ -110,6 +111,56 @@ class RewardPage extends StatelessWidget {
                     ),
                   ),
                 ],
+              ),
+              Row(
+                children: List.generate(
+                    giftList.length,
+                    (index) => Padding(
+                          padding: const EdgeInsets.all(8.0),
+                          child: Container(
+                            // height: Get.height * 0.2,
+                            width: Get.width * 0.4,
+                            decoration: const BoxDecoration(
+                              borderRadius: BorderRadius.only(
+                                topLeft: Radius.circular(12),
+                                topRight: Radius.circular(12),
+                              ),
+                            ),
+                            child: Column(
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              children: [
+                                Container(
+                                  height: Get.height * 0.15,
+                                  width: Get.width,
+                                  decoration: BoxDecoration(
+                                      borderRadius: const BorderRadius.only(
+                                        topLeft: Radius.circular(12),
+                                        topRight: Radius.circular(12),
+                                      ),
+                                      image: DecorationImage(
+                                          image: AssetImage(
+                                              giftList[index].image!),
+                                          fit: BoxFit.cover)),
+                                ),
+                                SizedBox(height: Get.height * 0.01),
+                                Text(
+                                  giftList[index].description!,
+                                  style: GoogleFonts.poppins(
+                                      color: Colors.grey.shade400,
+                                      fontSize: 12),
+                                ),
+                                const SizedBox(height: 5),
+                                Text(
+                                  giftList[index].points!,
+                                  style: GoogleFonts.poppins(
+                                      fontWeight: FontWeight.bold,
+                                      color: Colors.white,
+                                      fontSize: 14),
+                                ),
+                              ],
+                            ),
+                          ),
+                        )),
               ),
               // GridView.builder(
               //   shrinkWrap: true,
