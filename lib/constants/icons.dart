@@ -16,4 +16,6 @@ class IconClass {
   static const co2 = 'assets/icons/co2.svg';
   static const equipment = 'assets/icons/equipment.svg';
   static const bike = 'assets/icons/bike.svg';
+  static const first = 'assets/icons/first.svg';
+  static const won = 'assets/icons/won.svg';
 }
